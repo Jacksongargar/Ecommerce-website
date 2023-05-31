@@ -1,0 +1,46 @@
+/* resetting the body of the page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The hero back ground */
+
+
+.hero {
+     
+    height: 100vh;
+    background-image: url(/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.hero .container {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 32px;
+    display: flex;
+    justify-content: space-between;
+     
+     
+}
+
+
+
+
+
+
+.icons a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* Include Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
