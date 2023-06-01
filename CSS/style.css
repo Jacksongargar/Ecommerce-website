@@ -104,4 +104,26 @@
   .mainmenu li{
     margin-right: 10%;
   }
+
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    /* Mobile-specific styles go here */
+  }
+
+  /* Tablet styles */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Tablet-specific styles go here */
+  }
+
+  /* Desktop styles */
+  @media (min-width: 992px) {
+    /* Desktop-specific styles go here */
+  }
+ 
+
+
+
+
+
+
  
