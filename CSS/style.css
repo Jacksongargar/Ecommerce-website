@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: popin, sans-serif;
 }
 
 /* The hero back ground */
@@ -23,6 +24,10 @@
     background-attachment: scroll;
 }
 
+.navicons a{
+  justify-content: space-between;
+  text-decoration: none;
+}
 .hero .container {
     width: 90%;
     margin: 0 auto;
@@ -97,12 +102,8 @@
     }
   }
 
-  .navicons{
-   list-style: none;
-   display: flex;
-   padding: 20px;
-     
-  } 
+  /* Style the icons */  
+    
   .mainmenu li{
     margin-right: 10%;
   }
