@@ -91,4 +91,10 @@
   .logo{
     padding-left: 20px;
   }
+
+  @media (max-width:900px){
+    .mainmenu{
+      display: none;
+    }
+  }
  
