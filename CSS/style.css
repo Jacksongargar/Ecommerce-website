@@ -97,4 +97,11 @@
       display: none;
     }
   }
+
+  .navicon{
+    color: white;
+  } 
+  .mainmenu li{
+    margin-right: 10%;
+  }
  
