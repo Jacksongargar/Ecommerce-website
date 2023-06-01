@@ -12,7 +12,7 @@
 .hero {
      
     height: 100vh;
-    background-image: url(/images/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/images/hero.jpg);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: center center;
@@ -61,4 +61,34 @@
      
   }
 
+  .mainmenu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+     
+  }
+
+  .mainmenu a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .mainmenu li{
+    margin-right: 12%;
+    text-decoration: none;
+     
+     
+  }
+
+  .mainmenu li:first-child{
+    margin-right: 12%;
+     
+  }
+
+
+  .logo{
+    padding-left: 20px;
+  }
  
