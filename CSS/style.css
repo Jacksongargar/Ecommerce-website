@@ -1,3 +1,6 @@
+/* Import Font Awesome library */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /* resetting the body of the page */
 
 * {
@@ -28,10 +31,6 @@
     display: flex;
     justify-content: space-between;
 }
-
- 
-
-
 
  .hero-text {
     background-color: rgba(255, 255, 255, 0.78);
@@ -98,8 +97,11 @@
     }
   }
 
-  .navicon{
-    color: white;
+  .navicons{
+   list-style: none;
+   display: flex;
+   padding: 20px;
+     
   } 
   .mainmenu li{
     margin-right: 10%;
