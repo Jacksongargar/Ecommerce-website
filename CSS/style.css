@@ -59,16 +59,19 @@
     list-style: none;
     display: flex;
     align-items: center;
-    margin: 0;
-    padding: 0;
+     
   }
 
- .iconitems a {
+ .iconitems   {
     text-decoration: none;
     color: white;
-    padding: 15px;
+    display: flex;
+     
+    
     
   }
+
+   
   
   .navbar-menu li {
     margin-right: 10px;
@@ -84,6 +87,7 @@
     padding: 5px;
     
   }
+  
   
   /* Mobile styles */
   @media (max-width: 767px) {
