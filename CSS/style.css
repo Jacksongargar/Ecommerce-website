@@ -41,8 +41,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     
-    
     padding: 30px;
   }
   .navbar-menu {
@@ -52,6 +50,8 @@
     margin: 0;
     padding: 0;
   }
+
+  
 /* styling the iconsitems
  */
 
@@ -89,6 +89,11 @@
   @media (max-width: 767px) {
     .navbar-menu {
       display: none;
+      margin: 0px 0px;
+    }
+    .hero{
+      width: 744px;
+      height: 812px;
     }
     
     .navbar-logo {
