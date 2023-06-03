@@ -1,3 +1,4 @@
+/* Styling the blog section */
 .blog-section {
     width: 92%;
     margin: 2rem auto;
@@ -43,7 +44,7 @@
     font-size: 0.99rem;
     line-height: 1.50rem;
 }
-
+/* Styling the button */
 .blog-ctn .button {
     margin: 0.80rem 0 1.1rem 0;
     font-family: 'Dosis', sans-serif;
@@ -64,7 +65,7 @@
     padding-top: 0.9rem;
     padding-left: 0.5rem;
 }
-
+/*  Styling the date, number and month*/
 .date-number {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -111,7 +112,7 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
-
+/*  Styling the articles*/
 .article1 {
     background-image: url(/assets/images/1\ \(2\).jpg);
     background-position: center;
@@ -129,7 +130,7 @@
     background-position: center;
     background-size: cover;
 } 
-
+/*  */Responsive styling
 /* tablet settings */
 @media (min-width:601px) and (max-width:899px) {
     .blog-container {
