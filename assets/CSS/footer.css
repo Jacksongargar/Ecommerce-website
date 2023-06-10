@@ -1,16 +1,23 @@
- 
+*{
+    margin: 0;
+    padding: 0; 
+}
 
 .footer{
     background-color: #efefef;
     padding: 40px 20px 30px;
 }
 
- .location,
-  .email,
-  .phone{
+.footer .location,
+  .footer .email,
+ .footer .phone{
      display: flex;
      margin: 10px 0;
      align-items: center;
+}
+
+.footer .address-text{
+    font-size: 20px;
 }
 
 .footer .icon-class{
@@ -24,11 +31,8 @@
 
 }
 
- 
- 
-
-.footer .input[type=text]{
-    width: 270px;
+ .footer  input[type="text"]{
+    width: 250px;
     border: 2px solid #d9d9d9;
     font-size: 16px;
     padding: 20px;
