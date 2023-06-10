@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.footer{
+    background-color: #efefef;
+    padding: 40px 20px 30px;
+}
+
+ .location,
+  .email,
+  .phone{
+     display: flex;
+     margin: 10px 0;
+     align-items: center;
+}
+
+.footer .icon-class{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer .subscription{
+    margin: 60px 0 30px;
+
+}
+
+ 
+ 
+
+.footer .input[type=text]{
+    width: 270px;
+    border: 2px solid #d9d9d9;
+    font-size: 16px;
+    padding: 20px;
+    
+}
+
+
+.footer button {
+    background-color: #f0f0f0;
+    border: 2px solid #d9d9d9;
+    border-radius: 1px;
+    padding: 10px 13px 8px;
+    margin-left: -4px;
+    
+}
+
+.subs_form{
+    display: flex;
+    margin-top: 20px;
+}
+
+.copyright{
+    font-size: 20px;
+}
+
+.hr_line{
+    margin-bottom: 24px;
+}
+
+.copyright{
+    font-size: 20px;
+}
+
+.address_subscr{
+    display: flex ;
+    justify-content: space-between;
+}
+
+@media(min-width: 700px){
+    .address_subscr{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .subscription{
+        margin: 0 0 50px;
+    }
+
+    .footer .input[type=text]{
+        width: 300px;
+    }
+    .container{
+        width: 95px;
+        margin: 0 auto;
+    }
+}
+
